@@ -1,8 +1,9 @@
 name: Build & deploy
+
 on:
  push:
    branches:
-     - main
+     - master
 jobs:
   build:
    name: Build
